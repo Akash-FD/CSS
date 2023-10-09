@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background In CSS</title>
+    <style>
+      div {
+        height: 400px;
+        margin: 15px;
+        border: 5px dashed red;
+      }
+      .class1{
+        background-image: url(../images/banglore.jpg);
+        background-repeat: repeat-y;
+        background-attachment: fixed;
+        background-position: center center;
+      }
+      .class2{
+        background-image: url(../images/banglore.jpg);
+        background-repeat: no-repeat;
+        background-clip: border-box;
+        background-position: center center;
+      }
+      .class3{
+        background-image: url(../images/banglore.jpg);
+        background-repeat: no-repeat;
+        background-origin: border-box;
+
+
+
+      }
+    
+      .class4{
+        background-color: brown;
+
+      }
+      .class5{
+        background-image: url(../images/banglore.jpg);
+        
+      }
+      .class6{
+        background-image: url(../images/banglore.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+      }
+      .class7{
+        background-image: url(../images/banglore.jpg);
+        background-repeat:no-repeat ;
+      }
+      .class8{
+        background-image: url(../images/banglore.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .class9{
+        background-image: url(../images/banglore.jpg) no-repeat fixed cover ;
+      }
+      .class10{
+        background-image: url(../images/banglore.jpg),url(../images/xuv700.jpg);
+        
+        background-repeat: no-repeat;
+        background-position: 0% 0%;
+        background-size: 200px,cover;
+        
+        
+        
+      }
+    
+      
+    </style>
+  </head>
+  <body>
+    <h1>Background In CSS</h1><br><br>
+    
+    <li>background-attachment</li>
+    <li>background-clip</li>
+    <li>background-origin</li>
+    <li>background-color</li>
+    <li>background-image</li>
+    <li>background-position</li>
+    <li>background-repeat</li>
+    <li>background-size</li>
+    <li>background-shorthand</li>
+    <li>background-multiple</li>
+    
+    <div class="class1">background-attachment</div>
+    <div class="class2">background-clip</div>
+    <div class="class3">background-origin</div>
+    <div class="class4">background-color</div>
+    <div class="class5">background-image</div>
+    <div class="class6">background-position</div>
+    <div class="class7">background-repeat</div>
+    <div class="class8">background-size</div>
+    <div class="class9">background-shorthand</div>
+    <div class="class10">background-multiple</div>
+  </body>
+</html>

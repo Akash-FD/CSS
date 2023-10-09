@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>child selector</title>
+    <style>
+        /* child selector */
+        div>p {
+            background-color: salmon;
+        }
+
+        /* psudo classes */
+        a:link{
+            border: 2px solid blue;
+        }
+
+        a:hover{
+            color: blueviolet;
+            border-radius: 20px;
+        }
+        a:visited{
+            color: darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Child selector</h2>
+    <div>
+
+        <p>para1</p>
+        <p>para2</p>
+        <div>
+            <p>paragrap</p>
+        </div>
+        <p>para3</p>
+    </div>
+    <p>para4</p>
+    <p>para5</p>
+    <a href="#">Cleak Here</a>
+
+
+
+</body>
+
+</html>
